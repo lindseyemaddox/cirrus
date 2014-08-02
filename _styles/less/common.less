@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@import 'common_resetCss.less'; 
+@import 'less-functions.less'; 
+
+
+@black:		#2f2f2f;
+@orange:	#da542d;
+@lorange:	#dc8c1c;
+@grey:		#807e7e;
+
+
+body {
+    font-family:"domineregular", times, serif;
+    font-size: 14px;
+}
+p {
+	color: @black;
+	line-height: 1.5;
+}
+h1 {
+	font: 40px "alfa_slab_oneregular", times, serif;
+	color: @black;
+}
+h2 {
+	font: 30px "alfa_slab_oneregular", times, serif;
+	color: @black;
+}
+h3 {
+	font: 18px "alfa_slab_oneregular", times, serif;
+	color: @black;
+}
+.clear { 
+	clear:both;
+}
+.clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+a {
+    .transition();
+    color: #fff;
+    text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: @lorange;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-family: "dominebold", times, serif;
+}
+.btn {
+	border: 1px solid @grey;
+	font: 27px "alfa_slab_oneregular", times, serif;
+	color: @grey;
+	.border-radius(10px);
+	.gradient(top, #fff, #c2c1c1);
+  	text-transform: uppercase;
+  	padding: 5px 30px;
+  	display: inline-block;
+  	&:hover {
+  		text-decoration: none;
+  		cursor: pointer;
+		.gradient(top, #c2c1c1, #fff);
+		.transition;
+  	}
+}
+
+
+
+/******** START CUSTOM STYLES *********/
+
+header {
+	background: url("/_images/bg-header.jpg") repeat-x left bottom transparent;
+	border-top: 5px solid @orange;
+	width: 100%;
+	.logo {
+		margin: 20px 0 20px 10%;
+		width: 17%;
+	}
+	.phones {
+		height: 30px;
+		width: 80%;
+		margin: 0 10%;
+	}
+	nav {
+		background-color: @orange;
+		border-bottom: 5px solid @lorange;
+		float: left;
+		width: 100%;
+		height: 56px;
+		.inner {
+			width: 80%;
+			margin: 0 10%;
+		}
+		li {
+			float: left;
+			padding-right: 3.6%;
+			a {
+				font: 19px/56px "alfa_slab_oneregular", times, serif;
+				color: #fff;
+				text-decoration: none;
+				text-transform: uppercase;
+				&:hover {
+					color: @black;
+				}
+			}
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+	}
+	.socials {
+		position: absolute;
+		top: 20px;
+		right: 10%;
+		img:hover {
+			opacity: .6;
+			.transition();
+		}
+		h3 {
+			text-align: center;
+			clear: both;
+			font-size: 13px;
+			line-height: 30px;
+			a {
+				color: @black;
+				&:hover {
+					color: #fff;
+					.transition;
+				}
+			}
+		}
+		li {
+			float: left;
+			padding: 0 20px 0 0;
+			&:last-child {
+				padding-right: 0;
+			}
+			&.tel {
+				padding-top: 4px;
+			}
+			a {
+				color: @black;
+				font: 24px "alfa_slab_oneregular", times, serif;
+				&:hover {
+					color: @orange;
+				}
+			}
+		}
+	}
+}
+.mobileNav {
+	display: none;
+}
+
+footer {
+	background-color: @grey;
+	clear: both;
+	padding: 20px 10%;
+	border-bottom: 35px solid @lorange;
+	.list {
+		li {
+			font: 20px/36px "alfa_slab_oneregular", times, serif;
+			float: left;
+			padding-right: 4%;
+			a {
+				color: #fff;
+				&:hover {
+					color: @black;
+					.transition();
+				}
+			}
+		}
+	}
+	.top {
+		display: none;
+	}
+}
+
+
+	/****floating placeholder for form****/
+	input[type='text'], .floating-placeholder {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:16pt;
+		line-height: 2.6em;
+		height: 2.6em;
+		padding: 0;
+		-webkit-font-smoothing: antialiased;
+		margin-bottom: 20px;
+		background: #f0f0f0;
+		color: @orange;
+	}
+
+	/*This cahnges the color of the placeholder when you click into the input*/
+	.floating-placeholder input[type='text']:focus + label {
+		color: @grey;
+	}
+
+	.floating-placeholder input[value] + label {
+		color: red;
+	}
+
+	.floating-placeholder {
+		position: relative;
+		display: inline-block;
+		min-width: 300px;
+		width: 100%;
+	}
+
+	.floating-placeholder input[type='text'] {
+		font-size: 16pt;
+		border: none;
+		outline: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		background: transparent;
+		z-index: 2;
+		text-indent: 20px;
+		width: 100%;
+	}
+
+	.floating-placeholder:last-child input[type='text'] {
+		border-bottom: none;
+	}
+
+	.floating-placeholder label {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 20px;
+		font-size: 16pt;
+		z-index: 1;
+		-webkit-transform-origin: 0 0em;
+		-moz-transform-origin: 0 0em;
+		-ms-transform-origin: 0 0em;
+		-o-transform-origin: 0 0em;
+		transform-origin: 0 0em;
+		-webkit-transition: -webkit-transform 160ms, color 200ms;
+		-moz-transition: -moz-transform 160ms, color 200ms;
+		-o-transition: -o-transform 160ms, color 200ms;
+		transition: transform 160ms, color 200ms;
+		-webkit-transform: scale(1, 1) rotateY(0);
+		-moz-transform: scale(1, 1) rotateY(0);
+		-ms-transform: scale(1, 1) rotateY(0);
+		-o-transform: scale(1, 1) rotateY(0);
+		transform: scale(1, 1) rotateY(0);
+		color: @grey;
+	}
+
+	.floating-placeholder-float label {
+		-webkit-transform: scale(0.55, 0.55) rotateY(0);
+		-moz-transform: scale(0.55, 0.55) rotateY(0);
+		-ms-transform: scale(0.55, 0.55) rotateY(0);
+		-o-transform: scale(0.55, 0.55) rotateY(0);
+		transform: scale(0.55, 0.55) rotateY(0);
+	}
+
+	.floating-placeholder-float input {
+		line-height: 3.4em;
+	}
+
+
+
+
+/********  END CUSTOM STYLES  *********/
+
+@import 'home.less';
+@import 'info.less';
+@import 'compare.less';
+@import 'subpage.less';
+@import 'fonts.less';
+@import 'chosen.less';
+@import 'isotope.less';
+@import 'flexslider.less';
+@import 'fancybox.less';
+@import 'video.less';
+@import 'responsive.less';

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.outer {
+	background-color: @black;
+	padding: 40px 0 60px;
+}
+
+#options {
+		float: left;
+		width: 25%;
+		padding: 0 5% 0 10%;
+	h3 {
+		color: #fff;
+		font: 24px "alfa_slab_oneregular", times, serif;
+	}
+	ul {
+	}
+	li {
+		padding-bottom: 15px;
+		a {
+			color: @lorange;
+			font: 14px "domineregular", times, serif;
+		}
+	}
+}
+
+#container {
+  /* either of these will work for horizontal Isotope layouts */
+  height: 80%;
+  height: 480px;
+}
+
+#container {
+		padding: 0 10% 0 0;
+	.inner {
+	}
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.element {
+	width: 19%;
+	margin-right: 3%;
+	margin-bottom: 10px;
+	float: left;
+	cursor: pointer;
+	p.price {
+		margin-bottom: 20px;
+	}
+	p, h2, h3 {
+		color: #fff;
+	}
+	h3 {
+		font: 16px "alfa_slab_oneregular", times, serif!important;
+		color: #fff;
+		margin: -45px 5px 10px 5px;		
+		text-shadow: 2px 2px @black;
+	}
+	img {
+		width: 100%;
+		margin-top: 40px;
+	}
+	h3.symbol, h2.name, p.number, p.weight, p.price {
+		font: 12px "domineregular", times, serif;
+		span {
+			color: @lorange;
+			font: 14px "alfa_slab_oneregular", times, serif;
+		}
+	}
+	.imgdiv {
+		position: relative;
+		h3 {
+			position: absolute;
+			bottom: -10px;
+		}
+	}
+}
