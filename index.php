@@ -34,7 +34,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 										
 										<p>Kubota 23HP 4WD Gear Drive Tractor</p>
 										<p>Kubota LA304 Loader</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>4ft Rotary Cutter </p>
 
 									</div><!--details-->
