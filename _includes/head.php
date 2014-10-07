@@ -29,8 +29,3 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/connect.php'); // HTTP head
 	<script src="/_scripts/main-ck.js"></script>
 	<script src="/_scripts/chosen.jquery.js"></script>
 	<script src="/_scripts/jquery.isotope.min.js"></script>
-
-
-
-
- 	

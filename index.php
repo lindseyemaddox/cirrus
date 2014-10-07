@@ -11,7 +11,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head
 
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and navigation
+//require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/money-formatter.php'); // adding comma
 ?>    		
+
+
+
+ 	
 
     <section class="slider">
         <div class="flexslider">
@@ -103,7 +108,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 										
 										<p>Kubota 26HP 4WD Hydrostat Tractor</p>
 										<p>Kubota LA364 Loader</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>4ft Rotary Cutter </p>
 
 									</div><!--details-->
@@ -170,7 +175,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 									<div class="details">
 										
 										<p>Kubota 31.9HP 2WD Gear Drive Tractor</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>5ft Rotary Cutter</p>
 
 									</div><!--details-->
@@ -237,9 +242,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 									<div class="details">
 										
-										<p>Kubota 31.9HP 4WD Gear Drive Tractor</p>
-										<p>Kubota LA524FL Loader</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>Kubota 33HP 4WD Gear Drive Tractor</p>
+										<p>Kubota LA525FL Loader</p>
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>5ft Rotary Cutter </p>
 
 									</div><!--details-->
@@ -276,7 +281,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 											echo '<p class="availability">Availability: in stock</p>';
 										  }
 									}?>
-								<p class="information"><a href="/L3200DT.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
+								<p class="information"><a href="/L3301DT.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
 
 							</div><!--right-->
 
@@ -304,9 +309,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 									<div class="details">
 										
-										<p>Kubota 31.9HP 4WD Hydrostat Drive Tractor</p>
-										<p>Kubota LA524FL Loader</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>Kubota 33HP 4WD Hydrostat Drive Tractor</p>
+										<p>Kubota LA525FL Loader</p>
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>5ft Rotary Cutter </p>
 
 									</div><!--details-->
@@ -354,7 +359,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 					</section>
 
   	    		</li>  	    		
-  	    		<li data-thumb="/_images/Kubota-L3800DT-Tractor-Package.jpg">
+  	    		<li data-thumb="/_images/no-image.jpg">
 
 				   	<section id="kubota">
 						
@@ -362,7 +367,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 							
 							<div class="left">
 								
-								<img src="/_images/Kubota-L3800DT-Tractor-Package.jpg">
+								<img src="/_images/no-image.jpg">
 
 								<div class="overlay">
 									
@@ -370,9 +375,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 									<div class="details">
 										
-										<p>Kubota 37.4HP 4WD Gear Drive Tractor</p>
-										<p>Kubota LA524FL Loader</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>Kubota 37.5HP 4WD Gear Drive Tractor</p>
+										<p>Kubota LA525FL Loader</p>
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>6ft Rotary Cutter </p>
 
 									</div><!--details-->
@@ -409,7 +414,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 											echo '<p class="availability">Availability: in stock</p>';
 										  }
 									}?>
-								<p class="information"><a href="/L3800DT.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
+								<p class="information"><a href="/L3901DT.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
 
 							</div><!--right-->
 
@@ -420,7 +425,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 					</section>
 
   	    		</li>
-  	    		<li data-thumb="/_images/Kubota-L3800HST-Tractor-Package.jpg">
+  	    		<li data-thumb="/_images/no-image.jpg">
 
 				   	<section id="kubota">
 						
@@ -428,7 +433,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 							
 							<div class="left">
 								
-								<img src="/_images/Kubota-L3800HST-Tractor-Package.jpg">
+								<img src="/_images/no-image.jpg">
 
 								<div class="overlay">
 									
@@ -436,9 +441,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 									<div class="details">
 										
-										<p>Kubota 37.4HP 4WD Hydrostat Drive Tractor</p>
-										<p>Kubota LA524FL Loader</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>Kubota 37.5HP 4WD Hydrostat Drive Tractor</p>
+										<p>Kubota LA525FL Loader</p>
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>6ft Rotary Cutter </p>
 
 									</div><!--details-->
@@ -475,7 +480,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 											echo '<p class="availability">Availability: in stock</p>';
 										  }
 									}?>
-								<p class="information"><a href="/L3800HST.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
+								<p class="information"><a href="/L3901HST.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
 
 							</div><!--right-->
 
@@ -504,7 +509,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 									<div class="details">
 										
 										<p>Kubota 46.3HP 2WD Gear Drive Tractor</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>6ft Rotary Cutter </p>
 
 									</div><!--details-->
@@ -571,7 +576,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 										
 										<p>Kubota 46.3HP 4WD Gear Drive Tractor</p>
 										<p>Kubota LA764 Loader</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>6ft Rotary Cutter </p>
 
 									</div><!--details-->
@@ -637,7 +642,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 										
 										<p>Kubota 46.3HP 4WD Hydrostat Tractor</p>
 										<p>Kubota LA764 Loader</p>
-										<p>18ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
 										<p>6ft Rotary Cutter </p>
 
 									</div><!--details-->
@@ -685,7 +690,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 					</section>
 
   	    		</li> 
- 	    		<li data-thumb="/_images/Kubota-M5640SUD-Tractor-Package.jpg">
+ 	    		<li data-thumb="/_images/no-image.jpg">
 
 				   	<section id="kubota">
 						
@@ -693,7 +698,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 							
 							<div class="left">
 								
-								<img src="/_images/Kubota-M5640SUD-Tractor-Package.jpg">
+								<img src="/_images/no-image.jpg">
 
 								<div class="overlay">
 									
@@ -701,10 +706,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 									<div class="details">
 										
-										<p>Kubota 56HP 4WD Gear Drive Tractor</p>
-										<p>Kubota LA1002-5R2 Loader</p>
-										<p>6ft Heavy Duty Rotary Cutter</p>                                  
-										<p>*Optional 20ft Trailer (Not Included in Price)</p>
+										<p>Kubota 54.7HP 4WD Gear Drive Tractor</p>
+										<p>Kubota LA1065 Loader</p>
+										<p>6ft Heavy Duty 90HP Gearbox Rotary Cutter</p>                                  
+										<p>20ft Trailer w/ brakes and slide-in ramps</p>
 
 									</div><!--details-->
 
@@ -740,7 +745,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 											echo '<p class="availability">Availability: in stock</p>';
 										  }
 									}?>
-								<p class="information"><a href="/M5640SUD.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
+								<p class="information"><a href="/MX5200DT.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
 
 							</div><!--right-->
 
@@ -770,7 +775,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 										
 										<p>Kubota 71HP 4WD Hydraulic Shuttle Tractor</p>
 										<p>Kubota LA1153 Loader</p>
-										<p>6ft Heavy Duty Rotary Cutter</p>                                  
+										<p>6ft Medium Duty Rotary Cutter</p>                                  
 										<p>*Optional 20ft Trailer (Not Included in Price)</p>
 
 									</div><!--details-->

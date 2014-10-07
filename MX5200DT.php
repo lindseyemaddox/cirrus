@@ -19,7 +19,7 @@
 		
 		<h1><img src="/_images/logo-kubota-grey.png" alt="Kubota logo grey"></h1>
 
-		<h2>B2320DT Package Deal</h2>
+		<h2>MX5200DT Package Deal</h2>
 
 		<div class="clear"></div>
 
@@ -27,7 +27,7 @@
 	
 	<div class="left">
 		
-		<img src="/_images/Kubota-B2320DT-Tractor-Package.jpg">
+		<img src="/_images/no-image.jpg">
 
 		<h3>Engine</h3>
 
@@ -103,9 +103,9 @@
 
 	<div class="right">
 			
-		<img src="/_images/4ft-rotary-cutter.jpg">
+		<img src="/_images/no-image.jpg">
 
-		<h2>4FT Rotary Cutter</h2>
+		<h2>6FT Medium Duty 90HP Gearbox Rotary Cutter</h2>
 
 		<ul>
 			<li>Gearbox rating: 40HP</li>
@@ -114,7 +114,7 @@
 			<li>Approximate weight: 470lbs</li>
 		</ul>
 
-		<h2>18FT Utility Trailer</h2>
+		<h2>20FT Utility Trailer</h2>
 
 		<ul>
 			<li>Two 3500lb axles</li>

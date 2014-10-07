@@ -19,7 +19,7 @@
 		
 		<h1><img src="/_images/logo-kubota-grey.png" alt="Kubota logo grey"></h1>
 
-		<h2>L3800DT Package Deal</h2>
+		<h2>L3901DT Package Deal</h2>
 
 		<div class="clear"></div>
 
@@ -27,7 +27,7 @@
 	
 	<div class="left">
 		
-		<img src="/_images/Kubota-L3800DT-Tractor-Package.jpg">
+		<img src="/_images/no-image.jpg">
 
 		<h3>Engine</h3>
 
@@ -93,22 +93,21 @@
 
 		<ul>
 			<li>HP<span>31.5 hp (23.5 kW)</span></li>
-
 		</ul>
 
 	</div><!--left-->
 
 	<div class="right">
 			
-		<img src="/_images/4ft-rotary-cutter.jpg">
+		<img src="/_images/no-image.jpg">
 
-		<h2>4FT Rotary Cutter</h2>
+		<h2>6FT Rotary Cutter</h2>
 
 		<ul>
 			<li>Gearbox rating: 40HP</li>
 			<li>Cutting height: 2"-10"</li>
 			<li>Deck Material: 12 guage</li>
-			<li>Approximate weight: 470lbs</li>
+			<li>Approximate weight: 672lbs</li>
 		</ul>
 
 		<h2>18FT Utility Trailer</h2>

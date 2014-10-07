@@ -115,7 +115,7 @@
 			<li>Approximate weight: 470lbs</li>
 		</ul>
 
-		<h2>18FT Utility Trailer</h2>
+		<h2>20FT Utility Trailer</h2>
 
 		<ul>
 			<li>Two 3500lb axles</li>
