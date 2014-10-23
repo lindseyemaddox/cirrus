@@ -30,8 +30,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <li><a href="#filter" data-option-value=".sixft">Package Includes 6ft Rotary Cutter</a></li>
         <li><a href="#filter" data-option-value=".sixfthd">Package Includes 6ft Heavy Duty Rotary Cutter</a></li>
         <li><a href="#filter" data-option-value=":not(.fiveft, .sixft, .sixfthd)">no cutter included</a></li>
-        <li><a href="#filter" data-option-value=".eighteenft">Package Includes 18ft Trailer w/brakes and slide in ramps</a></li>
-        <li><a href="#filter" data-option-value=":not(.eighteenft)">no trailer included</a></li>
+        <li><a href="#filter" data-option-value=".twentyft">Package Includes 20ft Trailer w/brakes and slide in ramps</a></li>
+        <li><a href="#filter" data-option-value=":not(.twentyft)">no trailer included</a></li>
       </ul>
 
    <h3>Sort</h3>
@@ -61,7 +61,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     
       
           
-    <a href="/B2320DT.php" class="fancybox fancybox.iframe element Kubota fourft eighteenft" data-symbol="Hg" data-category="Kubota">
+    <a href="/B2320DT.php" class="fancybox fancybox.iframe element Kubota fourft twentyft" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/Kubota-B2320DT-Tractor-Package.jpg">
       <h3 class="symbol"> 
         <?php
@@ -109,7 +109,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
               
-    <a href="/B2620HSD.php" class="fancybox fancybox.iframe element Kubota fourft eighteenft" data-symbol="Te" data-category="Kubota">
+    <a href="/B2620HSD.php" class="fancybox fancybox.iframe element Kubota fourft twentyft" data-symbol="Te" data-category="Kubota">
     	<img src="/_images/Kubota-B2620HSD-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
@@ -157,7 +157,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
     
-    <a href="/L3200F.php" class="fancybox fancybox.iframe element Kubota fiveft eighteenft" data-symbol="Bi" data-category="Kubota">
+    <a href="/L3200F.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Bi" data-category="Kubota">
     	<img src="/_images/Kubota-L3200F-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
@@ -205,7 +205,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L3200DT.php" class="fancybox fancybox.iframe element Kubota fiveft eighteenft" data-symbol="Cd" data-category="Kubota">
+    <a href="/L3200DT.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Cd" data-category="Kubota">
     	<img src="/_images/Kubota-L3200DT-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
@@ -253,7 +253,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L3200HST.php" class="fancybox fancybox.iframe element Kubota fiveft eighteenft" data-symbol="Ca" data-category="Kubota">
+    <a href="/L3200HST.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Ca" data-category="Kubota">
     	<img src="/_images/Kubota-L3200HST-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
@@ -301,7 +301,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L3800DT.php" class="fancybox fancybox.iframe element Kubota sixft eighteenft" data-symbol="Re" data-category="Kubota">
+    <a href="/L3800DT.php" class="fancybox fancybox.iframe element Kubota sixft twentyft" data-symbol="Re" data-category="Kubota">
     	<img src="/_images/Kubota-L3800DT-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
@@ -349,7 +349,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L3800HST.php" class="fancybox fancybox.iframe element Kubota sixft eighteenft" data-symbol="Tl" data-category="Kubota">
+    <a href="/L3800HST.php" class="fancybox fancybox.iframe element Kubota sixft twentyft" data-symbol="Tl" data-category="Kubota">
     	<img src="/_images/Kubota-L3800HST-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
@@ -397,7 +397,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L4600F.php" class="fancybox fancybox.iframe element Kubota sixft eighteenft" data-symbol="Sb" data-category="Kubota">
+    <a href="/L4600F.php" class="fancybox fancybox.iframe element Kubota sixft twentyft" data-symbol="Sb" data-category="Kubota">
     	<img src="/_images/Kubota-L4600F-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
@@ -445,7 +445,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L4600DT.php" class="fancybox fancybox.iframe element Kubota sixft eighteenft" data-symbol="Co" data-category="Kubota">
+    <a href="/L4600DT.php" class="fancybox fancybox.iframe element Kubota sixft twentyft" data-symbol="Co" data-category="Kubota">
     	<img src="/_images/Kubota-L4600DT-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
@@ -493,7 +493,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L4600HST.php" class="fancybox fancybox.iframe element Kubota sixft eighteenft" data-symbol="Lu" data-category="Kubota">
+    <a href="/L4600HST.php" class="fancybox fancybox.iframe element Kubota sixft twentyft" data-symbol="Lu" data-category="Kubota">
     	<img src="/_images/Kubota-L4600HST-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
@@ -1415,6 +1415,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 </div><!--outer-->
 
  
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.fancybox').fancybox();
+
+		});
+	</script>
 
 
 <script>
