@@ -34,6 +34,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <li><a href="#filter" data-option-value=":not(.twentyft)">no trailer included</a></li>
       </ul>
 
+<!--
    <h3>Sort</h3>
 
     <ul id="sort-by" class="option-set clearfix" data-option-key="sortBy">
@@ -53,6 +54,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       <li><a href="#sortAscending=true" data-option-value="true" class="selected">sort ascending</a></li>
       <li><a href="#sortAscending=false" data-option-value="false">sort descending</a></li>
     </ul>
+-->
 
 
   </section> <!-- #options -->
@@ -157,8 +159,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
     
-    <a href="/L3200F.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Bi" data-category="Kubota">
-    	<img src="/_images/Kubota-L3200F-Tractor-Package.jpg">
+    <a href="/L2501F.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Bi" data-category="Kubota">
+    	<img src="/_images/no-image.jpg">
       <h3 class="symbol">
         <?php
           $sql = "SELECT * FROM products WHERE product_id = 3";
@@ -205,8 +207,104 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L3200DT.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Cd" data-category="Kubota">
-    	<img src="/_images/Kubota-L3200DT-Tractor-Package.jpg">
+    <a href="/L2501DT.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Bi" data-category="Kubota">
+    	<img src="/_images/Kubota-L2501-Tractor-Package.jpg">
+      <h3 class="symbol">
+        <?php
+          $sql = "SELECT * FROM products WHERE product_id = 30";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['brand'];} 
+        ?>
+        <?php
+          $sql = "SELECT * FROM products WHERE product_id = 30";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['model_number'];} 
+        ?>
+      Package Deal</h3>
+      <h2 class="name"><span>Engine: </span>
+        <?php
+          $sql = "SELECT * FROM products WHERE product_id = 30";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['engine'];} 
+        ?>
+      </h2>
+      <p class="number"><span>Transmission:</span>
+        <?php
+          $sql = "SELECT * FROM products WHERE product_id = 30";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['transmission'];} 
+        ?>
+      </p>
+      <p class="weight"><span>Cash Price: </span>$<?php
+          $sql = "SELECT * FROM products WHERE product_id = 30";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['cash_price'];} 
+        ?>
+      </p>
+      <p class="price"><span>Financed Price: </span>$<?php
+          $sql = "SELECT * FROM products WHERE product_id = 30";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['financed_price'];} 
+        ?>
+      </p>
+    </a>
+          
+    <a href="/L2501HST.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Bi" data-category="Kubota">
+    	<img src="/_images/Kubota-L2501-Tractor-Package.jpg">
+      <h3 class="symbol">
+        <?php
+          $sql = "SELECT * FROM products WHERE product_id = 31";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['brand'];} 
+        ?>
+        <?php
+          $sql = "SELECT * FROM products WHERE product_id = 31";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['model_number'];} 
+        ?>
+      Package Deal</h3>
+      <h2 class="name"><span>Engine: </span>
+        <?php
+          $sql = "SELECT * FROM products WHERE product_id = 31";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['engine'];} 
+        ?>
+      </h2>
+      <p class="number"><span>Transmission:</span>
+        <?php
+          $sql = "SELECT * FROM products WHERE product_id = 31";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['transmission'];} 
+        ?>
+      </p>
+      <p class="weight"><span>Cash Price: </span>$<?php
+          $sql = "SELECT * FROM products WHERE product_id = 31";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['cash_price'];} 
+        ?>
+      </p>
+      <p class="price"><span>Financed Price: </span>$<?php
+          $sql = "SELECT * FROM products WHERE product_id = 31";
+          $res = mysql_query($sql);
+          while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+          {echo $row['financed_price'];} 
+        ?>
+      </p>
+    </a>
+          
+    <a href="/L3301DT.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Cd" data-category="Kubota">
+    	<img src="/_images/Kubota-L3301-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
           $sql = "SELECT * FROM products WHERE product_id = 4";
@@ -253,8 +351,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L3200HST.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Ca" data-category="Kubota">
-    	<img src="/_images/Kubota-L3200HST-Tractor-Package.jpg">
+    <a href="/L3301HST.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Ca" data-category="Kubota">
+    	<img src="/_images/Kubota-L3301-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
           $sql = "SELECT * FROM products WHERE product_id = 5";
@@ -301,8 +399,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L3800DT.php" class="fancybox fancybox.iframe element Kubota sixft twentyft" data-symbol="Re" data-category="Kubota">
-    	<img src="/_images/Kubota-L3800DT-Tractor-Package.jpg">
+    <a href="/L3901DT.php" class="fancybox fancybox.iframe element Kubota sixft twentyft" data-symbol="Re" data-category="Kubota">
+    	<img src="/_images/Kubota-L3901-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
           $sql = "SELECT * FROM products WHERE product_id = 6";
@@ -349,8 +447,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </p>
     </a>
           
-    <a href="/L3800HST.php" class="fancybox fancybox.iframe element Kubota sixft twentyft" data-symbol="Tl" data-category="Kubota">
-    	<img src="/_images/Kubota-L3800HST-Tractor-Package.jpg">
+    <a href="/L3901HST.php" class="fancybox fancybox.iframe element Kubota sixft twentyft" data-symbol="Tl" data-category="Kubota">
+    	<img src="/_images/Kubota-L3901-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
           $sql = "SELECT * FROM products WHERE product_id = 7";

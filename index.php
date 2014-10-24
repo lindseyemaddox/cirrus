@@ -155,10 +155,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 					</section>
 
-
   	    		</li>
-  	    		<li data-thumb="/_images/Kubota-L3200F-Tractor-Package.jpg">
-
+  	    		
+  	    		<li data-thumb="/_images/no-image.jpg">
 
 				   	<section id="kubota">
 						
@@ -166,7 +165,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 							
 							<div class="left">
 								
-								<img src="/_images/Kubota-L3200F-Tractor-Package.jpg">
+								<img src="/_images/no-image.jpg">
 
 								<div class="overlay">
 									
@@ -213,7 +212,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 										  }
 									}?>
 								
-								<p class="information"><a href="/L3200F.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
+								<p class="information"><a href="/L2501F.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
 
 							</div><!--right-->
 
@@ -223,10 +222,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 					</section>
 
-
   	    		</li>
-  	    		<li data-thumb="/_images/Kubota-L3200DT-Tractor-Package.jpg">
-
+  	    		
+  	    		<li data-thumb="/_images/Kubota-L2501-Tractor-Package.jpg">
 
 				   	<section id="kubota">
 						
@@ -234,7 +232,141 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 							
 							<div class="left">
 								
-								<img src="/_images/Kubota-L3200DT-Tractor-Package.jpg">
+								<img src="/_images/Kubota-L2501-Tractor-Package.jpg">
+
+								<div class="overlay">
+									
+									<a href="/compare.php"><span class="btn"><img src="/_images/icon-compare.png"> Compare</span></a>
+
+									<div class="details">
+										
+										<p>Kubota 31.9HP 2WD Gear Drive Tractor</p>
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>5ft Rotary Cutter</p>
+
+									</div><!--details-->
+
+								</div>
+
+							</div><!--left-->
+
+							<div class="right">
+								
+									<?php
+									  $sql = "SELECT * FROM products WHERE product_id = 30";
+									  $res = mysql_query($sql);
+									  while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+									  {
+										$available=$row['availability'];//set variable
+										if ($available !== '1')//If not equal to 1, do somthing
+										  {
+										  	echo "<h4>".$row['brand']."</h4>";
+										  	echo "<h5>Package Deal</h5>";
+										  	echo "<h6>".$row['model_number']."</h6>";
+										  	echo "<p class='price out-of-stock'><span>$".$row['cash_price']."</span> Cash Price</p>";
+										  	echo "<p class='price financed out-of-stock'><span>$".$row['financed_price']."</span> Financed Price</p>";
+										  	echo "<p class='price payments out-of-stock'>Payments as Low As <span>$".$row['payments_price']."</span> per month</p>";
+									  		echo '<p class="availability">Availability: <span>out of stock</span></p>';
+
+										  }else {
+										  	echo "<h4>".$row['brand']."</h4>";
+										  	echo "<h5>Package Deal</h5>";
+										  	echo "<h6>".$row['model_number']."</h6>";
+										  	echo "<p class='price'><span>$".$row['cash_price']."</span> Cash Price</p>";
+										  	echo "<p class='price financed'><span>$".$row['financed_price']."</span> Financed Price</p>";
+										  	echo "<p class='price payments'>Payments as Low As <span>$".$row['payments_price']."</span> per month</p>";
+											echo '<p class="availability">Availability: in stock</p>';
+										  }
+									}?>
+								
+								<p class="information"><a href="/L2501DT.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
+
+							</div><!--right-->
+
+							<div class="clear"></div>
+
+						</div><!--inner-->
+
+					</section>
+
+  	    		</li>
+  	    		
+  	    		<li data-thumb="/_images/Kubota-L2501-Tractor-Package.jpg">
+
+				   	<section id="kubota">
+						
+						<div class="inner">
+							
+							<div class="left">
+								
+								<img src="/_images/Kubota-L2501-Tractor-Package.jpg">
+
+								<div class="overlay">
+									
+									<a href="/compare.php"><span class="btn"><img src="/_images/icon-compare.png"> Compare</span></a>
+
+									<div class="details">
+										
+										<p>Kubota 31.9HP 2WD Gear Drive Tractor</p>
+										<p>20ft Trailer w/brakes and slide in ramps</p>                                  
+										<p>5ft Rotary Cutter</p>
+
+									</div><!--details-->
+
+								</div>
+
+							</div><!--left-->
+
+							<div class="right">
+								
+									<?php
+									  $sql = "SELECT * FROM products WHERE product_id = 31";
+									  $res = mysql_query($sql);
+									  while($row = mysql_fetch_array($res, MYSQL_ASSOC))
+									  {
+										$available=$row['availability'];//set variable
+										if ($available !== '1')//If not equal to 1, do somthing
+										  {
+										  	echo "<h4>".$row['brand']."</h4>";
+										  	echo "<h5>Package Deal</h5>";
+										  	echo "<h6>".$row['model_number']."</h6>";
+										  	echo "<p class='price out-of-stock'><span>$".$row['cash_price']."</span> Cash Price</p>";
+										  	echo "<p class='price financed out-of-stock'><span>$".$row['financed_price']."</span> Financed Price</p>";
+										  	echo "<p class='price payments out-of-stock'>Payments as Low As <span>$".$row['payments_price']."</span> per month</p>";
+									  		echo '<p class="availability">Availability: <span>out of stock</span></p>';
+
+										  }else {
+										  	echo "<h4>".$row['brand']."</h4>";
+										  	echo "<h5>Package Deal</h5>";
+										  	echo "<h6>".$row['model_number']."</h6>";
+										  	echo "<p class='price'><span>$".$row['cash_price']."</span> Cash Price</p>";
+										  	echo "<p class='price financed'><span>$".$row['financed_price']."</span> Financed Price</p>";
+										  	echo "<p class='price payments'>Payments as Low As <span>$".$row['payments_price']."</span> per month</p>";
+											echo '<p class="availability">Availability: in stock</p>';
+										  }
+									}?>
+								
+								<p class="information"><a href="/L2501HST.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
+
+							</div><!--right-->
+
+							<div class="clear"></div>
+
+						</div><!--inner-->
+
+					</section>
+
+  	    		</li>
+  	    		
+  	    		<li data-thumb="/_images/Kubota-L3301-Tractor-Package.jpg">
+
+				   	<section id="kubota">
+						
+						<div class="inner">
+							
+							<div class="left">
+								
+								<img src="/_images/Kubota-L3301-Tractor-Package.jpg">
 
 								<div class="overlay">
 									
@@ -293,7 +425,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 
   	    		</li>
-  	    		<li data-thumb="/_images/Kubota-L3200HST-Tractor-Package.jpg">
+  	    		<li data-thumb="/_images/Kubota-L3301-Tractor-Package.jpg">
 
 				   	<section id="kubota">
 						
@@ -301,7 +433,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 							
 							<div class="left">
 								
-								<img src="/_images/Kubota-L3200HST-Tractor-Package.jpg">
+								<img src="/_images/Kubota-L3301-Tractor-Package.jpg">
 
 								<div class="overlay">
 									
@@ -348,7 +480,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 											echo '<p class="availability">Availability: in stock</p>';
 										  }
 									}?>
-								<p class="information"><a href="/L3200HST.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
+								<p class="information"><a href="/L3301HST.php" class="fancybox fancybox.iframe"><img src="/_images/icon-information.png">get more information</a></p>
 
 							</div><!--right-->
 
@@ -359,7 +491,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 					</section>
 
   	    		</li>  	    		
-  	    		<li data-thumb="/_images/no-image.jpg">
+  	    		<li data-thumb="/_images/Kubota-L3901-Tractor-Package.jpg">
 
 				   	<section id="kubota">
 						
@@ -367,7 +499,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 							
 							<div class="left">
 								
-								<img src="/_images/no-image.jpg">
+								<img src="/_images/Kubota-L3901-Tractor-Package.jpg">
 
 								<div class="overlay">
 									
@@ -425,7 +557,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 					</section>
 
   	    		</li>
-  	    		<li data-thumb="/_images/no-image.jpg">
+  	    		<li data-thumb="/_images/Kubota-L3901-Tractor-Package.jpg">
 
 				   	<section id="kubota">
 						
@@ -433,7 +565,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 							
 							<div class="left">
 								
-								<img src="/_images/no-image.jpg">
+								<img src="/_images/Kubota-L3901-Tractor-Package.jpg">
 
 								<div class="overlay">
 									

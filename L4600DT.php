@@ -27,7 +27,7 @@
 	
 	<div class="left">
 		
-		<img src="/_images/no-image.jpg">
+		<img src="/_images/Kubota-L4600DT-Tractor-Package.jpg">
 
 		<h3>Engine</h3>
 

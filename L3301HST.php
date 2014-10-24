@@ -19,7 +19,7 @@
 		
 		<h1><img src="/_images/logo-kubota-grey.png" alt="Kubota logo grey"></h1>
 
-		<h2>L3200HST Package Deal</h2>
+		<h2>L3301HST Package Deal</h2>
 
 		<div class="clear"></div>
 
@@ -27,7 +27,7 @@
 	
 	<div class="left">
 		
-		<img src="/_images/no-image.jpg">
+		<img src="/_images/Kubota-L3301-Tractor-Package.jpg">
 
 		<h3>Engine</h3>
 
