@@ -160,7 +160,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     </a>
     
     <a href="/L2501F.php" class="fancybox fancybox.iframe element Kubota fiveft twentyft" data-symbol="Bi" data-category="Kubota">
-    	<img src="/_images/no-image.jpg">
+    	<img src="/_images/Kubota-L2501-Tractor-Package.jpg">
       <h3 class="symbol">
         <?php
           $sql = "SELECT * FROM products WHERE product_id = 3";

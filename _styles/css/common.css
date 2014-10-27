@@ -854,7 +854,7 @@ input[type='text'],
 }
 .info .header h2 {
   font: 28px "alfa_slab_oneregular", times, serif;
-  float: left;
+  text-align: center;
   padding-top: 10px;
 }
 .info .header .btn {
@@ -881,7 +881,12 @@ input[type='text'],
   text-indent: 20px;
   font: 12px "domineregular", times, serif;
 }
+.info h2 {
+  font: 28px "alfa_slab_oneregular", times, serif;
+  padding: 15px 0;
+}
 .info h3 {
+  font-size: 18px;
   padding: 10px 0;
 }
 .info .right {
@@ -890,10 +895,6 @@ input[type='text'],
 }
 .info .right img {
   width: 100%;
-}
-.info .right h2 {
-  font: 28px "alfa_slab_oneregular", times, serif;
-  padding: 15px 0;
 }
 .outer {
   background-color: #2f2f2f;

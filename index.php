@@ -157,7 +157,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
   	    		</li>
   	    		
-  	    		<li data-thumb="/_images/no-image.jpg">
+  	    		<li data-thumb="/_images/Kubota-L2501-Tractor-Package.jpg">
 
 				   	<section id="kubota">
 						
@@ -165,7 +165,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 							
 							<div class="left">
 								
-								<img src="/_images/no-image.jpg">
+								<img src="/_images/Kubota-L2501-Tractor-Package.jpg">
 
 								<div class="overlay">
 									

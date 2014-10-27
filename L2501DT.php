@@ -29,77 +29,81 @@
 		
 		<img src="/_images/Kubota-L2501-Tractor-Package.jpg">
 
+		<h2>KUBOTA L2501DT</h2>
+
 		<h3>Engine</h3>
 
 		<ul>
-			<li>Cylinders<span>3</span></li>
-			<li>Bore x Stroke<span>3.3 x 3.6 in (83 x 92.4 mm)</span></li>
-			<li>Displacement<span>91.5 cu.in. (1499 cm³)</span></li>
-			<li>Fuel Capacity<span>10.0 US gal (38 L)</span></li>
-			<li>Engine<span>Indirect injection, vertical, water-cooled 4-cycle diesel</span></li>
-			<li>Power Level<span>(Gross) 31.9 hp (23.8 kW), (Net) 30.4 hp (22.7 kW)</span></li>
+			<li>Engine gross horsepower<span>24.8 (18.5) HP (kW)</span></li>
+			<li>Engine net power<span>23.9 (17.8) HP (kW)</span></li>
+			<li>PTO power<span>20.5 (15.3) HP (kW)</span></li>
+			<li>No. of cylinders<span>3</span></li>
+			<li>Bore & stroke<span>3.4 × 3.6 (87 × 92.4) HP (kW)</span></li>
+			<li>Total displacement<span>100.47 (1647) cu. in. (cm3)</span></li>
+			<li>Rated speed<span>2200 rpm</span></li>
+			<li>Battery<span>12V, RC: 123 min, CCA: 490 A</span></li>
+			<li>Fuel tank capacity<span>10.0 US gal.</span></li>
 		</ul>
 
-		<h3>Transmission</h3>
+		<h3>PTO</h3>
 
 		<ul>
-			<li>Clutch<span>Dry type single stage</span></li>
+			<li>Rear PTO type<span>Transmission driven with overrunning clutch</span></li>
+			<li>PTO/Engine speedsystem<span>540/1910</span></li>
+		</ul>
+
+		<h3>Hydraulic</h3>
+
+		<ul>
+			<li>Pump capacity (main)<span>5.15 gpm</span></li>
+			<li>Pump capacity (PS)<span>3.13 gpm</span></li>
+			<li>3-point hitch</li>
+			<li>Lift capacity at lift points<span>1918 (870) lbs. (kg)</span></li>
+			<li>Lift capacity at 24 in. behind lift points<span>1389 (630) lbs. (kg)</span></li>
+			<li>System pressure<span>2205 (15.2) kgf/cm2 (MPa)</span></li>
+		</ul>
+
+		<h3>Traveling System</h3>
+
+		<ul>
 			<li>Transmission<span>Gear shift, 8 forward and 4 reverse</span></li>
+			<li>Steering<span>Integral type power steering</span></li>
+			<li>Brake<span>Wet disc type</span></li>
+			<li>Clutch<span>Dry type single stage</span></li>
 		</ul>
 
-		<h3>Chassis</h3>
+		<h3>Tire size</h3>
 
 		<ul>
-			<li>Brake<span>Wet disc</span></li>
-			<li>Steering<span>Integral type power steering</span></li>
-			<li>Tires Front<span>(Ag) 5.00-15</span></li>
-			<li>Tires Rear<span>(Ag) 11.2-24</span></li>
-			<li>Turning Radius<span>(Min. w/Brake, 4WD Disengaged) 7.9 ft (2.4 m)</span></li>
+			<li>AG Standard<span>7.2 - 16 / 11.2 - 24</span></li>
+			<li>TURF Option<span>N/A</span></li>
+			<li>Indust. Option<span>27 × 8.50 - 15/ 15 - 19.5 R4</span></li>
+		</ul>
+
+		<h3>Traveling speed</h3>
+
+		<ul>
+			<li>with standard AG tires<span>Forward 0.9 (1.4) - 10.7 (17.3), Reverse 1.2 (1.9) - 3.9 (6.2) mph (km/h)</span></li>
 		</ul>
 
 		<h3>Dimensions</h3>
 
 		<ul>
-			<li>Weight<span>(w/ROPS) 2425 lbs (1100 kg)</span></li>
-			<li>Length<span>(w/o 3P) 110.6 in (2810 mm)</span></li>
-			<li>Width<span>(Min. Tread) 55.1 in (1400 mm)</span></li>
-			<li>Height<span>(w/Foldable ROPS) 91.7 in (2330 mm)</span></li>
-			<li>Wheelbase<span>63.3 in (1610 mm)</span></li>
-			<li>Ground Clearance<span>(Min.) 13.6 in (345 mm)</span></li>
-			<li>Lift Capacity<span>(at Lift Point) 1998 lbs (906 kg), (at 24" Behind Lift Points) 1435 lbs (651 kg)</span></li>
-			<li>Rated Speed<span>2800 rpm</span></li>
+			<li>Overall length (w/o 3P)<span>106.3 (2700) in. (mm)</span></li>
+			<li>Overall width (min.tread)<span>55.1 (1400) in. (mm)</span></li>
+			<li>Wheelbase<span>63.3 (1610) in. (mm)</span></li>
+			<li>Min. ground clearance<span>13.4 (340) in. (mm)</span></li>
+			<li>Rear tire tread<span>43.1 (1095) in. (mm)</span></li>
+			<li>Front tire tread<span>43.8 (1115) / 47.1 (1195) / 50.8 (1290) in. (mm)</span></li>
+			<li>Min. turning radius (w/brake, 4WD disengaged)<span>8.2 (2.5) feet (m)</span>
+			<li>Weight (with ROPS)<span>2601 (1180) lbs. (kg)</span></li>
 		</ul>
-
-		<h3>General Information</h3>
-
-		<ul>
-			<li>Travel Speed<span>(Forward) 1.1 mph (1.8 km/h) - 13.7 mph (22.0 km/h), (Reverse) 1.5 mph (2.4 km/h) - 4.9 mph (7.9 km/h)</span></li>
-			<li>Rear PTO<span>(Type) Transmission driven with overruning, (PTO/Engine Speed) 540/2430</span></li>
-			<li>3-Point Hitch<span>Category I</span></li>
-			<li>Hydraulic Pumps<span>(Main Capacity) 6.5 gpm (24.7 l/min), (PS Capacity) 4.0 gpm (15.0 l/min)</span></li>
-			<li>Control<span>(Lift) Position control</span></li>
-			<li>Battery<span>12V, RC:123 min, CCA: 490A</span></li>
-			<li>Alternator<span>12V, 45A</span></li>
-			<li>Tread<span>(Front) 41.3 in (1050 mm), (Rear) 43.8 in (1115 mm), 47.1 in (1195 mm), 50.8 in (1290 mm)</span></li>
-		</ul>
-
-		<h3>Hydraulics</h3>
-
-		<ul>
-			<li>Max Operating Pressure<span>160 kgf/cm­² (15.7 MPa)</span></li>
-		</ul>
-
-		<h3>Power Take-Off (PTO)</h3>
-
-		<ul>
-			<li>HP<span>26.7 hp (19.9 kW)</span></li>
-		</ul>
-
+		
 	</div><!--left-->
 
 	<div class="right">
 			
-		<img src="/_images/5ft-rotary-cutter.png">
+		<img src="/_images/5ft-rotary-cutter.jpg">
 
 		<h2>5FT Rotary Cutter</h2>
 
