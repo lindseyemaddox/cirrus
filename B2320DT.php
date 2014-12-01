@@ -32,71 +32,76 @@
 		<h3>Engine</h3>
 
 		<ul>
-			<li>Bore x Stroke<span>3.0" x 2.9" (76 x 73.6 mm)</span></li>
-			<li>Displacement<span>61.1 cu.in. (1001 cc)</span></li>
-			<li>Air Cleaner System<span>Dual paper element</span></li>
+			<li>Type<span>E-TVCS, liquid cooled, 3-cylinder diesel</span></li>
+			<li>Make, Model<span>Kubota D1005</span></li>
+			<li>PTO horsepower<span>DT:18.0HP, 13.4kW / HSD:17.0HP, 12.7kW</span></li>
+			<li>Engine gross horsepower<span>23.0HP, 17.2kW</span></li>
+			<li>Rated RPM<span>2800rpm</span></li>
+			<li>Bore and stroke<span>3.0 x 2.9in, 76 x 73.6mm</span></li>
+			<li>Displacement<span>61.1cu.in., 1001cc</span></li>
+			<li>Air cleaner<span>Dual paper element</span></li>
 			<li>Lubrication<span>Forced lubrication</span></li>
-			<li>Cooling<span>Pressurized radiator; (Capacity) 4.1 qts. (3.9 L)</span></li>
-			<li>Fuel Capacity<span>6.9 gal. (26 L)</span></li>
-			<li>Oil Capacity<span>3.3 qts. (3.1 L)</span></li>
-			<li>Engine<span>Kubota D1005-E3-D22; E-TVCS, liquid-cooled, 3-cylinder diesel</span></li>
-			<li>Travel Speed<span>(Forward 9th) 11.2 mph (18 km/h), (Reverse 3rd) 5.4 mph (8.7 km/h)</span></li>
+			<li>Cooling system<span>Pressurized radiator</span></li>
+			<li>Radiator fan<span>Radial air flow</span></li>
 		</ul>
 
-		<h3>Transmission</h3>
+		<h3>Capacities</h3>
 
 		<ul>
-			<li>Transmission Capacity<span>(Case) 3.7 gal (14 L)</span></li>
-			<li>Final Drive<span>Spur gear</span></li>
-			<li>Horsepower<span>(Gross) 23.0 HP (17.2 kW), (PTO) 18.0 HP (13.4 kW)</span></li>
-			<li>RPM Range<span>2800</span></li>
-			<li>Clutch<span>Dry, single plate</span></li>
-			<li>Transmission<span>Gear shift (9 Forward, 3 Reverse) /HST (3 range)</span></li>
+			<li>Fuel tank<span>6.9gal, 26l</li>
+			<li>Cooling system<span>4.1qts, 3.9l</span></li>
+			<li>Engine oil<span>3.3qts, 3.1l</span></li>
+			<li>Transmission case<span>3.7gal, 14l</span></li>
 		</ul>
 
-		<h3>Chassis</h3>
+		<h3>Drive train</h3>
 
 		<ul>
-			<li>Brake<span>Wet disc</span></li>
-			<li>Steering<span>Integral type power steering</span></li>
-			<li>Tires Front<span>6-12</span></li>
-			<li>Turning Radius<span>(w/Brake) 6.9 ft (2.1 m)</span></li>
-			<li>Tires Rear<span>9.5-16</span></li>
-		</ul>
-
-		<h3>Dimensions</h3>
-
-		<ul>
-			<li>Weight<span>1433 lbs (650 kg)</span></li>
-			<li>Length<span>(w/o 3-point hitch) 93.9 in (2385 mm)</span></li>
-			<li>Width<span>(Min. Tread) 45.1 in (1145 mm)</span></li>
-			<li>Wheelbase<span>61.5 in (1563 mm)</span></li>
-			<li>Ground Clearance<span>12.0 in (305 mm)</span></li>
-		</ul>
-
-		<h3>General Information</h3>
-
-		<ul>
-			<li>3-Point Hitch<span>Category I, (Lift Capacity @ Lift Point) 1356 lbs (615 kg), (Lift Capacity @ 24" behind LP) 1058 lbs (480 kg)</span></li>
-			<li>Fan<span>Radial air flow</span></li>
-			<li>Standard<span>Differential lock</span></li>
-			<li>Tread<span>Front 31.5 in (800 mm), Rear 35.5 (900)</span></li>
+			<li>Clutch<span>Dry single plate</span></li>
+			<li>Transmission<span>Gear (9 Forward, 3 Reverse)</span></li>
+			<li>differential lock<span>Standard</span></li>
+			<li>Final drive<span>Spur gear</span></li>
+			<li>Brake<span>Wet disc type</span></li>
+			<li>PTO<span>Transmission driven with one way clutch, Rear: 540,960rpm, Mid: 2500rpm</span></li>
 		</ul>
 
 		<h3>Hydraulics</h3>
 
 		<ul>
-			<li>Pump Type<span>Dual Pump, 3P: 4.7 gpm (17.9 L/min), Power Steering 3.6 gpm (13.5 L/min)</span></li>
-			<li>Hydraulic System<span>Quarter inching valve</span></li>
-			<li>Hydraulic Type<span>Open center, Gear pump</span></li>
-			<li>Pump Rated Output<span>8.3 gpm (31.4 L)</span></li>
+			<li>Type<span>Open Center, Gear Pump</span></li>
+			<li>Pump<span>Dual Pump, 3P: 4.7 (17.9) Power Steering: 3.6 (13.5)</span></li>
+			<li>Total pump output<span>8.3gpm, 31.4l/min</span></li>
+			<li>Hydraulic outlet<span>Front outlet (w/standard valve)</span></li>
+			<li>3-point hitch<span>Category 1</span></li>
+			<li>Hydraulic control system<span>Quarter inching valve</span></li>
+			<li>Lift capacity<span>at lift point: 1356lbs, 615kg, 24" behind lift point: 1058lbs, 480kg</span></li>
+			<li>Steering<span>Integral type power steering</span></li>
 		</ul>
 
-		<h3>Power Take-Off (PTO)</h3>
+		<h3>Standard tire size</h3>
 
 		<ul>
-			<li>Standard PTO<span>Transmission driven w/one-way clutch, (Rear) 540, 960 rpm, (Mid) 2500</span></li>
+			<li>Front<span>6-12</span></li>
+			<li>Rear<span>9.5-16</span></li>
+		</ul>
 
+		<h3>Traveling speeds</h3>
+
+		<ul>
+			<li>Forward<span>9th: 11.2 mph, 18km/h</span></li>
+			<li>Reverse<span>3rd: 5.4mph, 8.7km/h</span></li>
+		</ul>
+
+		<h3>Dimensions</h3>
+
+		<ul>
+			<li>Overall length<span>(without 3-point hitch) 93.9in, 2385mm</span></li>
+			<li>Overall width<span>(min tread) 45.1in, 1145mm</span></li>
+			<li>Wheelbase<span>61.5in, 1563mm</span></li>
+			<li>Ground clearance<span>12.0in, 305mm</span></li>
+			<li>Tread<span>Front: 31.5in, 800mm, Rear: 35.5in, 900mm</span></li>
+			<li>Turning radius with brake<span>6.9feet, 2.1m</span></li>
+			<li>Weight<span>1433lbs, 650kg</span></li>
 		</ul>
 
 	</div><!--left-->
