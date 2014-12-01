@@ -32,71 +32,75 @@
 		<h3>Engine</h3>
 
 		<ul>
-			<li>Bore x Stroke<span>3.0" x 2.9" (76 x 73.6 mm)</span></li>
-			<li>Displacement<span>61.1 cu.in. (1001 cc)</span></li>
-			<li>Air Cleaner System<span>Dual paper element</span></li>
-			<li>Lubrication<span>Forced lubrication</span></li>
-			<li>Cooling<span>Pressurized radiator; (Capacity) 4.1 qts. (3.9 L)</span></li>
-			<li>Fuel Capacity<span>6.9 gal. (26 L)</span></li>
-			<li>Oil Capacity<span>3.3 qts. (3.1 L)</span></li>
-			<li>Engine<span>Kubota D1005-E3-D22; E-TVCS, liquid-cooled, 3-cylinder diesel</span></li>
-			<li>Travel Speed<span>(Forward 9th) 11.2 mph (18 km/h), (Reverse 3rd) 5.4 mph (8.7 km/h)</span></li>
-		</ul>
-
-		<h3>Transmission</h3>
-
-		<ul>
-			<li>Transmission Capacity<span>(Case) 3.7 gal (14 L)</span></li>
-			<li>Final Drive<span>Spur gear</span></li>
-			<li>Horsepower<span>(Gross) 23.0 HP (17.2 kW), (PTO) 18.0 HP (13.4 kW)</span></li>
-			<li>RPM Range<span>2800</span></li>
-			<li>Clutch<span>Dry, single plate</span></li>
-			<li>Transmission<span>Gear shift (9 Forward, 3 Reverse) /HST (3 range)</span></li>
-		</ul>
-
-		<h3>Chassis</h3>
-
-		<ul>
-			<li>Brake<span>Wet disc</span></li>
-			<li>Steering<span>Integral type power steering</span></li>
-			<li>Tires Front<span>6-12</span></li>
-			<li>Turning Radius<span>(w/Brake) 6.9 ft (2.1 m)</span></li>
-			<li>Tires Rear<span>9.5-16</span></li>
-		</ul>
-
-		<h3>Dimensions</h3>
-
-		<ul>
-			<li>Weight<span>1433 lbs (650 kg)</span></li>
-			<li>Length<span>(w/o 3-point hitch) 93.9 in (2385 mm)</span></li>
-			<li>Width<span>(Min. Tread) 45.1 in (1145 mm)</span></li>
-			<li>Wheelbase<span>61.5 in (1563 mm)</span></li>
-			<li>Ground Clearance<span>12.0 in (305 mm)</span></li>
-		</ul>
-
-		<h3>General Information</h3>
-
-		<ul>
-			<li>3-Point Hitch<span>Category I, (Lift Capacity @ Lift Point) 1356 lbs (615 kg), (Lift Capacity @ 24" behind LP) 1058 lbs (480 kg)</span></li>
-			<li>Fan<span>Radial air flow</span></li>
-			<li>Standard<span>Differential lock</span></li>
-			<li>Tread<span>Front 31.5 in (800 mm), Rear 35.5 (900)</span></li>
-		</ul>
-
-		<h3>Hydraulics</h3>
-
-		<ul>
-			<li>Pump Type<span>Dual Pump, 3P: 4.7 gpm (17.9 L/min), Power Steering 3.6 gpm (13.5 L/min)</span></li>
-			<li>Hydraulic System<span>Quarter inching valve</span></li>
-			<li>Hydraulic Type<span>Open center, Gear pump</span></li>
-			<li>Pump Rated Output<span>8.3 gpm (31.4 L)</span></li>
+			<li>Type<span>Indirect injection, vertical, water-cooled 4-cycle diesel</span></li>
+			<li>Engine gross power<span>46.3HP, 34.5kW @ 2600rpm</span></li>
+			<li>Engine net power<span>43.8HP, 32.7kW @ 2600rpm</span></li>
+			<li>PTO power<span>36.8HP, 27.4kW</span></li>
+			<li>No. of cylinders<span>4</span></li>
+			<li>Bore & stroke<span>3.4 x 3.6in, 87 x 92.4mm</span></li>
+			<li>Total displacement<span>134.1cu.in., 2,197l</span></li>
+			<li>Rated speed<span>2600rpm</span></li>
+			<li>Alternator<span>12V, 40A</span></li>
+			<li>Fuel tank capacity<span>12.7 US gal, 48l</span></li>
 		</ul>
 
 		<h3>Power Take-Off (PTO)</h3>
 
 		<ul>
-			<li>Standard PTO<span>Transmission driven w/one-way clutch, (Rear) 540, 960 rpm, (Mid) 2500</span></li>
+			<li>Rear PTO<span>540rpm</span></li>
+			<li>Type<span>Live-independent hydraulic PTO with PTO brake, wet clutch</span></li>
+		</ul>
 
+		<h3>Hydraulic</h3>
+
+		<ul>
+			<li>Lift control type<span>Position control</span></li>
+			<li>Pump capacity (main)<span>7.8gpm, 29.4l/min</span></li>
+			<li>Power steering pump<span>17.9l/min, 4.7gpm</span></li>
+			<li>3-point hitch<span>Category 1</span></li>
+			<li>lift capacity at lift points<span>2870lbs, 1300kg</span></li>
+			<li>lift capacity 24in behind lift points<span>2320lbs, 1053kg</span></li>
+		</ul>
+
+		<h3>Travelling System</h3>
+
+		<ul>
+			<li>Transmission<span>Hydrostatic transmission, 3 range speed</span></li>
+			<li>Steering<span>Hydrostatic power steering</span></li>
+			<li>Brake<span>mechanical, wet disc type</span></li>
+			<li>Clutch<span>dry type single stage</span></li>
+		</ul>
+
+		<h3>Tire Size</h3>
+
+		<ul>
+			<li>AG Standard<span>8.3L - 16 front, 14.9 - 24 rear</span></li>
+			<li>TURF Option<span>27 x 10.5 / 44 x 18 - 20, 27 x 8.50 - 15, 44 x 18 - 20, 305R343LSW / 44 x 18-20</span></li>
+		</ul>
+
+		<h3>Travelling speed with standard AG tires</h3>
+
+		<ul>
+			<li>Forward<span>0.0mph, 0.0km.h - 15.8mph, 25.4km/h</span></li>
+			<li>Reverse<span>0.0mph, 0.0km.h - 14.2mph, 22.9km/h</span></li>
+		</ul>
+
+		<h3>Dimensions</h3>
+
+		<ul>
+			<li>Overall length<span>117.9in, 2995mm</span></li>
+			<li>Overall height<span>91.7in, 2330mm</span></li>
+			<li>Overall width<span>62.4in, 1585mm</span></li>
+			<li>Wheelbase<span>72.6in, 1845mm</span></li>
+			<li>Minimum ground clearance<span>15.2in, 385mm</span></li>
+			<li>Tread<span>front: 45.5in, 1155mm, rear: 46.5, 47.2, 51.2, 57.1, 60.8in</span></li>
+			<li>Minimum thruing radius<span>8.5feet, 2.6m</span></li>
+		</ul>
+		
+		<h3>Weight</h3>
+		
+		<ul>
+			<li>with ROPS<span>3197lbs, 1450kg</span></li>
 		</ul>
 
 	</div><!--left-->
